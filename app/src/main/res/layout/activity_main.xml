@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:padding="15dp">
+
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:padding="48dp"
+        android:text="Which year are you born in?"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        tools:ignore="MissingPrefix" />
+
+    <EditText
+        android:id="@+id/yearInput"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="30dp"
+        android:hint=" Enter year "
+        android:inputType="number"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+
+        />
+
+
+    <Button
+        android:id="@+id/btncheck"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="CHECK GENRATION"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="400dp"
+        android:layout_height="79dp"
+        android:text="you belong to the following genration"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_marginBottom="15dp"
+
+        />
+
+    <TextView
+        android:id="@+id/genText"
+        android:layout_width="394dp"
+        android:layout_height="95dp"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="21sp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+
+        />
+
+    <Button
+        android:id="@+id/clearBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="CLEAR" />
+
+
+    <Button
+        android:id="@+id/exitBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="EXIT"
+        tools:ignore="InvalidId" />
+</LinearLayout>
